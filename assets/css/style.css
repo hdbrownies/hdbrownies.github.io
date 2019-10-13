@@ -187,7 +187,6 @@ justify-content:  space-around;
 .books-menu-item {
   
   margin-top: 1rem;
-  padding-right: 1rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -221,10 +220,10 @@ justify-content:  space-around;
 
 .texto{
   padding-top: 1rem;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 2rem;
   line-height: 2rem;
-  color: #575e60;
+  color: #ff0000;
 }
 
 /* livro.html */
@@ -285,6 +284,48 @@ justify-content:  space-around;
 
 }
 
+@media (max-width: 414px) {
+   .books-menu-item-image{
+     width: 30rem;
+     height: 30rem;
+   }
+   .img-index{
+    width: 20rem;
+    height: 20rem;
+   }
+  .para-index{
+    font-size: 3rem;
+  }
+  .main-menu{
+    display: grid;
+
+  }
+  .section-title-image{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem;
+  }
+  .books-menu-item{
+    flex-direction: column;
+    margin: 3rem;
+  }
+  .books-menu-item-text{
+  margin: 3rem;
+  width: 80%;
+  height: 15rem;
+  }
+  .especial{
+    width: 20rem;
+  }
+  .imagem{
+    margin-left: 2rem;
+
+  }
+
+
+  }
+    
+   
 
 
 
